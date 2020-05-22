@@ -1,4 +1,4 @@
-
+require "pry"
 
 def nyc_pigeon_organizer(data)
   data.each_with_object({}) do |(color_gender_lives, inner_keys), final_array|
@@ -16,22 +16,10 @@ def nyc_pigeon_organizer(data)
 end
 end
 
+binding.pry
 
 
 
 
 
-#get to the names
-#make each name keys of the final hash
-  #make sure no doubles
-    #turn them into strings, not symbols
 
-#Make the final hash include a hash that has the keys:
-#  color
-#  gender
-  #lives
-#  those are all symbols
-
-#  and each of those has arrays as their value. which are arrays of strings.
-#    The stings in the arrays have the corresponding values  to the key titles
-# remember to convert the final thing to a hash
