@@ -17,9 +17,3 @@ end
 end
 
 binding.pry
-
-
-
-
-
-
