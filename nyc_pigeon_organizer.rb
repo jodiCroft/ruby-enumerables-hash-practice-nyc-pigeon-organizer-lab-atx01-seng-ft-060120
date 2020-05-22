@@ -6,10 +6,10 @@ def nyc_pigeon_organizer(data)
       names.each do |name|
         if !final_hash[name]
           final_hash[name] = {}
-          binding.pry
         end
       if !final_hash[name][color_gender_lives]
         final_hash[name][color_gender_lives] = []
+        binding.pry
       end
       final_hash[name][color_gender_lives].push(inner_key.to_s)
     end
