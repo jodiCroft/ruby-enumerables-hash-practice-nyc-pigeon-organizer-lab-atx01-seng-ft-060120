@@ -13,6 +13,6 @@ def nyc_pigeon_organizer(data)
       final_hash[name][color_gender_lives].push(inner_key.to_s)
     end
   end
-  binding.pry
 end
+binding.pry
 end
